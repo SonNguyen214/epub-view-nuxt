@@ -1,0 +1,7 @@
+.epub-view {
+  @apply px-10 !relative !w-full h-dvh !py-5;
+
+  .area {
+    @apply py-[3%] !flex  !px-[18%] !w-full h-full !justify-center !items-center !relative duration-200;
+  }
+}
