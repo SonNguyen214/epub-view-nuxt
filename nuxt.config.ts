@@ -2,6 +2,10 @@
 import Aura from "@primeuix/themes/aura";
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
+  ssr: true,
+  nitro: {
+    preset: 'vercel',
+  },
   devtools: { enabled: true },
   modules: [
     "@pinia/nuxt",
