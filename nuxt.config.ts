@@ -37,4 +37,9 @@ export default defineNuxtConfig({
     "~stores": "/stores",
     "~utils": "/utils",
   },
+  vite: {
+    server: {
+      allowedHosts: ['https://epub-view-nuxt.vercel.app/']
+    }
+  }
 });
